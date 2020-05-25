@@ -1,4 +1,4 @@
-window.addEventListener('load'start);
+window.addEventListener('load', start);
 
 var inputRange = null;
 var inputFrequency = null;
@@ -6,12 +6,10 @@ var divPodcasts = null;
 
 function start() {
   inputRange = document.querySelector('#inputRange');
-  inputFrequency = document.querySelector(onafterprint)
-}
+  inputFrequency = document.querySelector('#onafterprint');
+  divPodcasts = document.querySelector('#divPodcasts');
 
-
-
-function start() {
-  console.log('Dom carregado');
-
+  inputRange.value = '108';
+  inputFrequency.value = '100';
+  divPodcasts.innerHTML = 'oi';
 }
